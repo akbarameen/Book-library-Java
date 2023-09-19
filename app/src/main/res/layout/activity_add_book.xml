@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".AddBook">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit or Delete"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:shadowColor="@color/book_row_card"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="4"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Book Title"
+        android:textColorHint="#8E8C8C"
+        android:textColor="#ffa600"
+        android:background="@color/white"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="10dp"
+
+        android:id="@+id/bTitle"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Book author"
+        android:textColorHint="#8E8C8C"
+        android:textColor="#ffa600"
+        android:id="@+id/bAuthor"
+        android:background="@color/white"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Pages"
+        android:textColorHint="#8E8C8C"
+        android:textColor="#ffa600"
+        android:layout_marginTop="16dp"
+        android:id="@+id/bPages"
+        android:background="@color/white"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textColor="#ffa600"
+        android:textSize="20sp"
+        android:id="@+id/updateBtn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#F1655B"
+        android:layout_marginTop="15dp"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:id="@+id/deleteBtn"/>
+
+</LinearLayout>

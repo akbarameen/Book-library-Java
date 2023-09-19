@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Book Library</string>
+    <string name="add_book">Add Book</string>
+    <string name="author_name">Author Name</string>
+    <string name="book_title">Book Title</string>
+    <string name="no_of_pages">No of pages</string>
+    <string name="add">Add</string>
+    <string name="delete_all">Delete all</string>
+    <string name="no_data">No Data</string>
+    <string name="todo">TODO</string>
+    <string name="logo_text">Book Library</string>
+    <string name="description_title">Description</string>
+    <string name="book_description">Some quick example text to build on the card title and make up the bulk of the card.Some quick example text to build on the card title and make up the bulk of the card.Some quick example text to build on the card title and make up the bulk of the card.Some quick example text to build on the card title and make up the bulk of the card.</string>
+    <string name="description">Description</string>
+</resources>

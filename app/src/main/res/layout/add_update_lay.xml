@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:paddingTop="10dp"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="@string/add_book"
+        android:layout_margin="15dp"
+        android:textSize="32sp"
+        android:id="@+id/dialogTitle"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:padding="10dp"
+        android:textColor="#ffa600"
+        android:hint="@string/book_title"
+        android:textColorHint="#8E8C8C"
+        android:inputType="text"
+        android:id="@+id/edtBookTitle"
+        android:layout_marginBottom="11dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="#ffa600"
+        android:padding="10dp"
+        android:hint="@string/author_name"
+        android:textColorHint="#8E8C8C"
+        android:inputType="text"
+        android:id="@+id/edtBookAuthor"
+        android:layout_marginBottom="11dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="#ffa600"
+        android:padding="10dp"
+        android:hint="@string/no_of_pages"
+        android:textColorHint="#8E8C8C"
+        android:inputType="number"
+        android:id="@+id/edtBookPages"
+        android:layout_marginBottom="11dp"
+        android:autofillHints="" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/add"
+        android:textSize="16sp"
+        android:layout_gravity="end"
+        android:textColor="#ffa600"
+        android:id="@+id/btnAction"
+        android:layout_marginBottom="18dp"
+      />
+
+
+
+</LinearLayout>
